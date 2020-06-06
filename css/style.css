@@ -621,7 +621,7 @@ h1, h2, h3, h4, h5, h6, figure {
         height:90px;
       }
     .blog-img {
-      margin-top: 0px;
+      margin-top: -20px;
     }
   .blog-img .embed-responsive {
     padding:0;
