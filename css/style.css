@@ -620,13 +620,22 @@ h1, h2, h3, h4, h5, h6, figure {
         width: 100px;
         height:90px;
       }
-    .blog-img {
-      margin-top: -20px;
-    }
-  .blog-img .embed-responsive {
-    padding:0;
-    margin:0;
-  }}
+	  blog-img {
+      margin-top: 0px;
+      height: 230px;
+} 
+.blog-img .embed-responsive{
+   height:380px;
+   padding:0;
+   margin: 0;
+}}
+    
+   
+
+
+
+
+
 .messages{
   width: 100%;
   text-align: center;
