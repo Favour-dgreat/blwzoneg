@@ -17,7 +17,14 @@ body {
   font-family: "Roboto", Arial, sans-serif;
   color: #666666;
   background: #fff; }
-
+  
+  .unique {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+    font-size: medium;
+    text-decoration: none;
+  }
 /*--- navigation bar ---*/
 .navbar {
 	background: #ffffff;
@@ -347,7 +354,59 @@ h1, h2, h3, h4, h5, h6, figure {
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
     transform: scale(1.1); } */
+.adverts{
+  width:100%;
 
+}
+.adverts .embed-responsive{
+  width:30%;
+  margin: 0 30px;
+  margin-top: -20px;
+}
+.adverts .perfection{
+   width: 100%;
+}
+.adverts .perfection img{
+  width:65%;
+  float:right;
+  margin-right:30px; 
+  margin-top: -230px;
+  height:37vh;
+}
+.adverts .perfection .img{
+  height:400px;
+  width:30%;
+  float: left;
+  margin-top: 20px;
+  margin-left: 420px;
+}
+.ministry{
+  width: 100%;
+}
+.ministry p{
+  font-weight: bold;
+  font-size: 20px;
+  margin-left:0px;
+  color: #F6490D;
+  text-align: center;
+}
+
+.ministry img{
+  width: 20%;
+  margin-left: 50px;
+}
+.ministry .rhapsody {
+  height: 220px;
+}
+
+ button {
+  background-color:white;
+  margin-left:995px;
+  width: 30%; 
+  color: black;
+  border: 2px solid black;
+  font-weight: bold;
+}
 #colorlib-hero {
   height: 650px;
   background: #fff url(../images/loader.gif) no-repeat center center;
@@ -395,7 +454,77 @@ h1, h2, h3, h4, h5, h6, figure {
       opacity: 1;
       height: 650px;
       z-index: 9; }
+      @media screen and (max-width: 890px) {
+        .adverts .embed-responsive{
+          width:100%;
+          margin-top: 120px;
+          margin-left: 0;
+        }
+        .adverts .perfection img{
+          margin:10px 0;
+          width:100%;
+          height:25vh;
+          margin-top: 5px;
+        }
+        .ministry .rhapsody {
+          height: 220px;
+        }
       @media screen and (max-width: 768px) {
+        .adverts{
+          width:100%;
+        }
+        .ministry p{
+          font-weight: bold;
+          font-size: 20px;
+          text-align: center;
+          color: black;
+        }
+        .ministry img{
+          width:100%;
+          margin-left: 0px;
+        }
+        .ministry .rhapsody {
+          height: 220px;
+        }
+      }
+        .adverts .embed-responsive{
+          width:100%;
+          margin-top: 120px;
+          margin-left: 0;
+        }
+        .adverts .perfection img{
+          margin:10px 0;
+          width:100%;
+          height:25vh;
+          margin-top: 3px;
+        }
+        .adverts .perfection .img{
+          margin:10px 0;
+          width:100%;
+          height:37vh;
+          margin-top: 3px;
+        }
+        .adverts .perfection p{
+          font-weight: bold;font-size: 20px;text-align: center; margin:0 520px;
+        }
+        .ministry p{
+          font-weight: bold;
+          font-size: 20px;
+          text-align: center;
+          color: black;
+        }
+        .ministry img{
+          width:100%;
+          margin-left: 0px;
+        }
+         button {
+          background-color:white;
+          width: 30%; 
+          margin-left: 100px;
+          color: black;
+          border: 2px solid black;
+          font-weight: bold;
+        }
         #colorlib-hero .flexslider .slider-text {
           width: 100%; } }
       #colorlib-hero .flexslider .slider-text > .slider-text-inner {
@@ -513,10 +642,11 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative; 
 }
 /*Event Section*/
+
 .image1 img{
-  height: 10%;
-  width:50%;
-  margin-left: 20px;
+  height: 650px;
+  width:100%;
+  margin: 0;
 }
 .previous{
   background-color: #F6490D;
@@ -525,51 +655,46 @@ h1, h2, h3, h4, h5, h6, figure {
   text-align: center;
 }
 .text {
-  width:40%;
-  float:right;
-  margin-top: -530px;
-  margin-right: 50px;
+  
 }
 .image2 img{
-  height: 10%;
-  width:50%;
-  margin-left: 20px;
+  height: 650px;
+  width:100%;
+ 
+}
+.image3 img{
+  height: 650px;
+  width: 100%;
 }
 .text1 {
-  width:40%;
-  float:right;
-  margin-top: -420px;
-  margin-right: 50px;
+  /*Nothing here for now wil add some text deigns later */
 }
 @media screen and (max-width:768px){
-  .image1 img{
+   .image1 img{
     height: 10%;
-    width:80%;
-    margin-left: 20px;
+   
   }
   hr{
-    display: none;
+    /* display: none; */
   }
   .text  {
    margin-top:0px;
    width: 100%; 
   }
   .text p{
-    margin-left: 80px;
   }
   .image2 img{
     height: 10%;
-    width:80%;
-    margin-left: 20px;
+    width:100%;
   }
   .text1 {
     margin-top:0px;
     width: 100%;
     height: 100%;
   }
-  .text1 p{
-    margin-left: 80px;
-  }
+  .image3 img{
+    width:100%;
+  }   
 
   .zonefooter nav{
     display: none;
