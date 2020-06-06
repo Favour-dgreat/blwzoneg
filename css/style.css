@@ -623,8 +623,7 @@ h1, h2, h3, h4, h5, h6, figure {
     .blog-img {
       margin-top: 0px;
     }
-  .blog-img .embed-responsive{
-   height:380px;
+  .blog-img .embed-responsive {
     padding:0;
     margin:0;
   }}
