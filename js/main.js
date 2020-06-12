@@ -254,3 +254,5 @@
 
 
 }());
+var vid = document.getElementById("myVideo");
+vid.controls = true;

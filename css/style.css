@@ -358,12 +358,12 @@ h1, h2, h3, h4, h5, h6, figure {
     transform: scale(1.1); } */
 .adverts{
   width:100%;
-
+  margin-top: 0px;
 }
 .adverts .embed-responsive{
   width:30%;
   margin: 0 30px;
-  margin-top: -20px;
+  margin-top: 0px;
 }
 .adverts .perfection{
    width: 100%;
@@ -389,7 +389,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: bold;
   font-size: 20px;
   margin-left:0px;
-  color: #F6490D;
+  color: black;
   text-align: center;
 }
 
@@ -403,8 +403,8 @@ h1, h2, h3, h4, h5, h6, figure {
 
  button {
   background-color:white;
-  margin-left:995px;
-  width: 30%; 
+  margin-left:985px;
+  width: 20%; 
   color: black;
   border: 2px solid black;
   font-weight: bold;
@@ -621,8 +621,8 @@ h1, h2, h3, h4, h5, h6, figure {
         height:90px;
       }
     .blog-img {
-      margin-top: 40px;
-      height: 380px;
+      margin-top: -30px;
+      height: 240px;
     }
   .blog-img .embed-responsive{
    height:380px;
@@ -646,9 +646,9 @@ h1, h2, h3, h4, h5, h6, figure {
 /*Event Section*/
 
 .image1 img{
-  height: 650px;
-  width:100%;
-  margin: 0;
+  height: 500px;
+  width:80%;
+  margin-left: 120px;
 }
 .previous{
   background-color: #F6490D;
@@ -656,39 +656,59 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 25px;
   text-align: center;
 }
-.text {
-  
+.text p {
+  text-align: center;
+  color: white;
 }
 .image2 img{
-  height: 650px;
-  width:100%;
- 
+  height: 500px;
+  width:80%;
+  margin-left: 120px;
 }
 .image3 img{
-  height: 650px;
-  width: 100%;
+  height: 500px;
+  width:80%;
+  margin-left: 120px;
 }
-.text1 {
-  /*Nothing here for now wil add some text deigns later */
+.text1 p{
+  text-align: center;
+  color: white;
+}
+.text2 p{
+  text-align: center;
+  color: white;
+}
+.events {
+  width: 100%;
+  background-color: #F6490D;
+}
+.events p{
+  text-align: center;
+  color: white;
+  font-weight: bold;
 }
 @media screen and (max-width:768px){
    .image1 img{
     height: 10%;
-   
+    width: 100%;
+    margin-left: 0px;
   }
-  hr{
-    /* display: none; */
-  }
+ 
   .text  {
    margin-top:0px;
    width: 100%; 
   }
-  .text p{
-  }
+  
   .image2 img{
     height: 10%;
-    width:100%;
-  }
+    width: 100%;
+    margin-left: 0px;
+    }
+  .image3 img{
+    height: 10%;
+    width: 100%;
+    margin-left: 0px;
+    }
   .text1 {
     margin-top:0px;
     width: 100%;
@@ -1087,8 +1107,6 @@ blockquote {
       .side .instagram-entry .instagram:hover:after, .side .instagram-entry .instagram:hover:before, .side .instagram-entry .instagram:focus:after, .side .instagram-entry .instagram:focus:before {
         opacity: 1; }
 
-#colorlib-container {
-  /* Owl Override Style */ }
   #colorlib-container .owl-carousel .owl-controls,
   #colorlib-container .owl-carousel-posts .owl-controls {
     margin-top: 0; }
@@ -1305,6 +1323,7 @@ input[type="text"] {
 
 }
 .colorlib-footer{
+  margin-top: 0px;
   height:180px;
 }
 .images img{
