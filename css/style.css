@@ -386,10 +386,11 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
 }
 .ministry p{
+  background-color: grey;
   font-weight: bold;
   font-size: 20px;
   margin-left:0px;
-  color: black;
+  color: white;
   text-align: center;
 }
 
@@ -399,15 +400,6 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .ministry .rhapsody {
   height: 220px;
-}
-
- button {
-  background-color:white;
-  margin-left:985px;
-  width: 20%; 
-  color: black;
-  border: 2px solid black;
-  font-weight: bold;
 }
 #colorlib-hero {
   height: 650px;
@@ -475,6 +467,7 @@ h1, h2, h3, h4, h5, h6, figure {
         .adverts{
           width:100%;
         }
+        
         .ministry p{
           font-weight: bold;
           font-size: 20px;
@@ -521,8 +514,8 @@ h1, h2, h3, h4, h5, h6, figure {
         }
          button {
           background-color:white;
-          width: 30%; 
-          margin-left: 100px;
+          width:50%; 
+          margin-left: 210px;
           color: black;
           border: 2px solid black;
           font-weight: bold;
@@ -639,7 +632,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .messages{
   width: 100%;
   text-align: center;
-  background-color: #F6490D;
+  background-color: rgb(128, 91, 79);
   color:white;
   font-weight: bold;
   font-size: 25px;
