@@ -392,7 +392,6 @@ h1, h2, h3, h4, h5, h6, figure {
   color: black;
   text-align: center;
 }
-
 .ministry img{
   width: 20%;
   margin-left: 50px;
@@ -400,7 +399,6 @@ h1, h2, h3, h4, h5, h6, figure {
 .ministry .rhapsody {
   height: 220px;
 }
-
  button {
   background-color:white;
   margin-left:985px;
@@ -680,6 +678,34 @@ h1, h2, h3, h4, h5, h6, figure {
 .text1 p{
   text-align: center;
   color: white;
+.image1 img{
+  height: 500px;
+  width:80%;
+  margin-left: 120px;
+}
+.previous{
+  background-color: #F6490D;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+.text p {
+  text-align: center;
+  color: white;
+}
+.image2 img{
+  height: 500px;
+  width:80%;
+  margin-left: 120px;
+}
+.image3 img{
+  height: 500px;
+  width:80%;
+  margin-left: 120px;
+}
+.text1 p{
+  text-align: center;
+  color: white;
 }
 .text2 p{
   text-align: center;
@@ -724,7 +750,6 @@ h1, h2, h3, h4, h5, h6, figure {
   .image3 img{
     width:100%;
   }   
-
   .zonefooter nav{
     display: none;
   }
