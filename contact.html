@@ -84,15 +84,16 @@
 							
 							<div class="col-md-6">
 								<h2 class="heading-2" style="background-color:#F6490D;text-align: center;">Get In Touch</h2>
-								<form action="#">
+								<?=$thankYou ?>
+								<form method="post" action="contact.php">
 									<div class="row form-group">
 										<div class="col-md-6">
 											<label for="fname">Full Name</label>
-											<input type="text" id="fname" class="form-control" placeholder="Your fullname">
+											<input name="sender" type="text" id="fname" class="form-control" placeholder="Your fullname">
 										</div>
 										<div class="col-md-6">
 											<label for="lname">Phone Number</label>
-											<input type="text" id="lname" class="form-control" placeholder="Your phone number">
+											<input name="senderPhoneNumber" type="text" id="lname" class="form-control" placeholder="Your phone number">
 										</div>
 									</div>
 
